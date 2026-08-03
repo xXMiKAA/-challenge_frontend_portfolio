@@ -1,7 +1,3 @@
-# -challenge_frontend_portfolio
-
-# Front-end Iniciante
-
 ## DESCRIPTION
 
 Criar um portfólio profissional online que fortaleça a presença digital do desenvolvedor, organizando e apresentando suas informações, habilidades e projetos de forma visual, clara e atrativa.
