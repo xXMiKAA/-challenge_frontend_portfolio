@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
+    <title>Home</title>
+</head>
+<body class="bg-preto font-poppins">
+
+    <header class="w-[100%] mb-[5rem] sticky top-0 z-50">
+        <nav class="bg-preto rounded-br-[20rem] w-[100%] p-[2rem] flex justify-center shadow-[0_4px_4px_#19191933]">
+            <ul class="text-branco text-base font-normal flex gap-[2.4rem]">
+                <li class="hover:underline decoration-roxo decoration-2 underline-offset-4"> <a href="Home.html">Home</a> </li>
+                <li class="hover:underline decoration-roxo decoration-2 underline-offset-4"> <a href="#">Projetos</a> </li>
+                <li class="hover:underline decoration-roxo decoration-2 underline-offset-4"> <a href="Sobre_mim.html">Sobre mim</a> </li>
+                <li class="hover:underline decoration-roxo decoration-2 underline-offset-4"> <a href="contato.html">Contato</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="bg-preto h-[calc(100vh-160px)]">
+            <div class="h-[1px] w-full bg-roxo"></div>
+
+            <div class="flex justify-center items-center mt-[4rem] mb-[4rem] gap-[12rem]">
+                <div class="text-branco font-poppins">
+                    <p class="text-3xl mb-5">Olá! Meu nome é <span class="text-roxo">Maria Clara</span></p>
+                    <p class="text-6xl font-share-tech mb-1">DESENVOLVEDORA</p>
+                    <p class="text-6xl font-share-tech">FULLSTACK</p>
+                    <button class="bg-amarelo flex gap-2 mt-[4rem] p-[0.7rem] rounded-[0.4rem]"> 
+                        <p class="text-preto">Baixar currículo</p> 
+                        <img src="../images/baixar.png" alt="" class="w-[1.4rem] h-[1.4rem]"> 
+                    </button>
+                </div>
+
+                <img src="../images/foto-perfil.png" alt="" class="w-[22.1rem] h-[22rem]">
+            </div>
+
+            <div class="h-[1px] w-full bg-roxo"></div>
+
+            <div class="flex w-[100%] justify-center mt-[12rem]">
+                <a href="#skills" class="bg-amarelo rounded-full p-4 animate-bounce"> 
+                    <img src="../images/seta-para-baixo.png" alt="" class="w-[1.6rem] h-[1.6rem]">
+                </a>
+            </div>
+        </section>
+        
+        <section id="skills" class="min-h-screen bg-branco">
+            <div class="w-[100%] grid grid-cols-3 grid-rows-3 grid-cols-[fit-content(300px)_fit-content(300px)_fit-content(300px)] justify-center justify-items-center items-center gap-y-[2.5rem] gap-x-[4rem]">                
+
+                <p class="col-start-1 row-start-1 font-share-tech text-5xl -mb-[5rem] self-center justify-self-start">SKILLS</p>
+
+                <div class="col-start-1 row-start-2"> <!-- DIV para envelopar título e card -->
+                    <p>FRONT-END</p>
+
+                    <div class="border rounded-3xl p-4 max-w-[18rem] max-h-[12rem] flex gap-6 justify-center items-center flex-wrap"> <!-- DIV do card -->
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/html-5.png" alt="" class="w-[2.8125rem] h-[2.8125rem]">
+                            <p>HTML</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/css-3.png" alt="" class="w-[2.8125rem] h-[2.8125rem]">
+                            <p>CSS</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/js.png" alt="" class="w-[2.6875rem] h-[2.6875rem]">
+                            <p>Javascript</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/Tailwind CSS.png" alt="" class="w-[3.25rem] h-[3.25rem]">
+                            <p>Tailwind</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/Bootstrap.png" alt="" class="w-[2.9375rem] h-[2.9375rem]">
+                            <p>Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-start-2 row-start-2 self-start justify-self-center"> <!-- DIV para envelopar título e card -->
+                    <p>Banco de dados</p>
+
+                    <div class="border rounded-3xl p-4 max-w-[18rem] max-h-[12rem] flex gap-6 justify-center items-center flex-wrap"> <!-- DIV do card -->
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/PostgresSQL.png" alt="" class="w-[2.8125rem] h-[2.8125rem]">
+                            <p>PostgreSQL</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/MySQL.png" alt="" class="w-[2.8125rem] h-[2.8125rem]">
+                            <p>MySQL</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-start-3 row-start-2 self-start justify-self-center"> <!-- DIV para envelopar título e card -->
+                    <p>Ferramentas</p>
+
+                    <div class="border rounded-3xl p-4 max-w-[18rem] max-h-[12rem] flex gap-6 justify-center items-center flex-wrap"> <!-- DIV do card -->
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/Figma.png" alt="" class="w-[2.8125rem] h-[2.8125rem]">
+                            <p>Figma</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/github-sign.png" alt="" class="w-[2.8125rem] h-[2.8125rem]">
+                            <p>Github</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-start-1 row-start-3"> <!-- DIV para envelopar título e card -->
+                    <p>BACK-END</p>
+
+                    <div class="border rounded-3xl p-4 max-w-[18rem] max-h-[12rem] flex gap-6 justify-center items-center flex-wrap"> <!-- DIV do card -->
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/PHP.png" alt="" class="w-[2.8125rem] h-[2.8125rem]">
+                            <p>PHP</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/Laravel.png" alt="" class="w-[2.8125rem] h-[2.8125rem]">
+                            <p>Laravel</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/Node.js.png" alt="" class="w-[2.6875rem] h-[2.6875rem]">
+                            <p>Node.js</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/express.svg" alt="" class="w-[3.25rem] h-[3.25rem]">
+                            <p>Express.js</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/java.png" alt="" class="w-[2.9375rem] h-[2.9375rem]">
+                            <p>Java</p>
+                        </div>
+
+                        <div class="flex flex-col items-center"> <!-- DIV para envelopar ícone de software + título do software -->
+                            <img src="../images/C.png" alt="" class="w-[2.9375rem] h-[2.9375rem]">
+                            <p>C</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+    </main>
+
+</body>
+</html>
