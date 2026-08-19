@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --color-preto: #191919;
+    --color-branco: #F6F5F6;
+    --color-amarelo: #F0E57F;
+    --color-roxo: #731DD8;
+
+     --font-poppins: "Poppins", sans-serif;
+     --font-share-tech: "Share Tech Mono", monospace;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
+    <title>Portfólio</title>
+</head>
+<body class="bg-preto font-poppins">
+
+    <header class="w-[100%] mb-[5rem] sticky top-0 z-50">
+        <nav class="bg-preto rounded-br-[20rem] w-[100%] p-[2rem] flex justify-center">
+            <ul class="text-branco text-base font-normal flex gap-[2.4rem]">
+                <li class="hover:underline decoration-roxo decoration-2 underline-offset-4"> <a href="#">Home</a> </li>
+                <li class="hover:underline decoration-roxo decoration-2 underline-offset-4"> <a href="#">Projetos</a> </li>
+                <li class="hover:underline decoration-roxo decoration-2 underline-offset-4"> <a href="#">Sobre mim</a> </li>
+                <li class="hover:underline decoration-roxo decoration-2 underline-offset-4"> <a href="#">Contato</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="h-[calc(100vh-160px)]">
+            <div class="h-[1px] w-full bg-roxo"></div>
+
+            <div class="flex justify-center items-center mt-[4rem] mb-[4rem] gap-[12rem]">
+                <div class="text-branco font-poppins">
+                    <p class="text-3xl mb-5">Olá! Meu nome é <span class="text-roxo">Maria Clara</span></p>
+                    <p class="text-6xl font-share-tech mb-1">DESENVOLVEDORA</p>
+                    <p class="text-6xl font-share-tech">FULLSTACK</p>
+                    <button class="bg-amarelo flex gap-2 mt-[4rem] p-[0.7rem] rounded-[0.4rem]"> 
+                        <p class="text-preto">Baixar currículo</p> 
+                        <img src="../images/baixar.png" alt="" class="w-[1.4rem] h-[1.4rem]"> 
+                    </button>
+                </div>
+
+                <img src="../images/foto-perfil.png" alt="" class="w-[22.1rem] h-[22rem]">
+            </div>
+
+            <div class="h-[1px] w-full bg-roxo"></div>
+
+            <div class="flex w-[100%] justify-center mt-[12rem]">
+                <a href="#skills" class="bg-amarelo rounded-full p-4 animate-bounce"> 
+                    <img src="../images/seta-para-baixo.png" alt="" class="w-[1.6rem] h-[1.6rem]">
+                </a>
+            </div>
+        </section>
+        
+        <section id="skills" class="min-h-screen bg-branco">
+            <p class="translate-y-[8rem] ml-[10rem] font-share-tech text-5xl">SKILLS</p>
+        </section>
+        
+    </main>
+
+</body>
+</html>
